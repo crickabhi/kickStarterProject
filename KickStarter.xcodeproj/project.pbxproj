@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1405C621EBE564E00415559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1405C611EBE564E00415559 /* AppDelegate.swift */; };
+		D1405C641EBE564E00415559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1405C631EBE564E00415559 /* ViewController.swift */; };
+		D1405C671EBE564E00415559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1405C651EBE564E00415559 /* Main.storyboard */; };
+		D1405C6A1EBE564E00415559 /* KickStarter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1405C681EBE564E00415559 /* KickStarter.xcdatamodeld */; };
+		D1405C6C1EBE564E00415559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1405C6B1EBE564E00415559 /* Assets.xcassets */; };
+		D1405C6F1EBE564E00415559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1405C6D1EBE564E00415559 /* LaunchScreen.storyboard */; };
+		D1405C7A1EBE564E00415559 /* KickStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1405C791EBE564E00415559 /* KickStarterTests.swift */; };
+		D1405C851EBE564E00415559 /* KickStarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1405C841EBE564E00415559 /* KickStarterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1405C761EBE564E00415559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1405C561EBE564D00415559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1405C5D1EBE564D00415559;
+			remoteInfo = KickStarter;
+		};
+		D1405C811EBE564E00415559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1405C561EBE564D00415559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1405C5D1EBE564D00415559;
+			remoteInfo = KickStarter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1405C5E1EBE564D00415559 /* KickStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1405C611EBE564E00415559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1405C631EBE564E00415559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1405C661EBE564E00415559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1405C691EBE564E00415559 /* KickStarter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KickStarter.xcdatamodel; sourceTree = "<group>"; };
+		D1405C6B1EBE564E00415559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1405C6E1EBE564E00415559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1405C701EBE564E00415559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1405C751EBE564E00415559 /* KickStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1405C791EBE564E00415559 /* KickStarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickStarterTests.swift; sourceTree = "<group>"; };
+		D1405C7B1EBE564E00415559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1405C801EBE564E00415559 /* KickStarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickStarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1405C841EBE564E00415559 /* KickStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickStarterUITests.swift; sourceTree = "<group>"; };
+		D1405C861EBE564E00415559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1405C5B1EBE564D00415559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1405C721EBE564E00415559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1405C7D1EBE564E00415559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1405C551EBE564D00415559 = {
+			isa = PBXGroup;
+			children = (
+				D1405C601EBE564E00415559 /* KickStarter */,
+				D1405C781EBE564E00415559 /* KickStarterTests */,
+				D1405C831EBE564E00415559 /* KickStarterUITests */,
+				D1405C5F1EBE564D00415559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1405C5F1EBE564D00415559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1405C5E1EBE564D00415559 /* KickStarter.app */,
+				D1405C751EBE564E00415559 /* KickStarterTests.xctest */,
+				D1405C801EBE564E00415559 /* KickStarterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1405C601EBE564E00415559 /* KickStarter */ = {
+			isa = PBXGroup;
+			children = (
+				D1405C611EBE564E00415559 /* AppDelegate.swift */,
+				D1405C631EBE564E00415559 /* ViewController.swift */,
+				D1405C651EBE564E00415559 /* Main.storyboard */,
+				D1405C6B1EBE564E00415559 /* Assets.xcassets */,
+				D1405C6D1EBE564E00415559 /* LaunchScreen.storyboard */,
+				D1405C701EBE564E00415559 /* Info.plist */,
+				D1405C681EBE564E00415559 /* KickStarter.xcdatamodeld */,
+			);
+			path = KickStarter;
+			sourceTree = "<group>";
+		};
+		D1405C781EBE564E00415559 /* KickStarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1405C791EBE564E00415559 /* KickStarterTests.swift */,
+				D1405C7B1EBE564E00415559 /* Info.plist */,
+			);
+			path = KickStarterTests;
+			sourceTree = "<group>";
+		};
+		D1405C831EBE564E00415559 /* KickStarterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1405C841EBE564E00415559 /* KickStarterUITests.swift */,
+				D1405C861EBE564E00415559 /* Info.plist */,
+			);
+			path = KickStarterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1405C5D1EBE564D00415559 /* KickStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1405C891EBE564E00415559 /* Build configuration list for PBXNativeTarget "KickStarter" */;
+			buildPhases = (
+				D1405C5A1EBE564D00415559 /* Sources */,
+				D1405C5B1EBE564D00415559 /* Frameworks */,
+				D1405C5C1EBE564D00415559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KickStarter;
+			productName = KickStarter;
+			productReference = D1405C5E1EBE564D00415559 /* KickStarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1405C741EBE564E00415559 /* KickStarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1405C8C1EBE564E00415559 /* Build configuration list for PBXNativeTarget "KickStarterTests" */;
+			buildPhases = (
+				D1405C711EBE564E00415559 /* Sources */,
+				D1405C721EBE564E00415559 /* Frameworks */,
+				D1405C731EBE564E00415559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1405C771EBE564E00415559 /* PBXTargetDependency */,
+			);
+			name = KickStarterTests;
+			productName = KickStarterTests;
+			productReference = D1405C751EBE564E00415559 /* KickStarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1405C7F1EBE564E00415559 /* KickStarterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1405C8F1EBE564E00415559 /* Build configuration list for PBXNativeTarget "KickStarterUITests" */;
+			buildPhases = (
+				D1405C7C1EBE564E00415559 /* Sources */,
+				D1405C7D1EBE564E00415559 /* Frameworks */,
+				D1405C7E1EBE564E00415559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1405C821EBE564E00415559 /* PBXTargetDependency */,
+			);
+			name = KickStarterUITests;
+			productName = KickStarterUITests;
+			productReference = D1405C801EBE564E00415559 /* KickStarterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1405C561EBE564D00415559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Abhinav Mathur";
+				TargetAttributes = {
+					D1405C5D1EBE564D00415559 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6339ZWMFHV;
+						ProvisioningStyle = Automatic;
+					};
+					D1405C741EBE564E00415559 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6339ZWMFHV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1405C5D1EBE564D00415559;
+					};
+					D1405C7F1EBE564E00415559 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6339ZWMFHV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1405C5D1EBE564D00415559;
+					};
+				};
+			};
+			buildConfigurationList = D1405C591EBE564D00415559 /* Build configuration list for PBXProject "KickStarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1405C551EBE564D00415559;
+			productRefGroup = D1405C5F1EBE564D00415559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1405C5D1EBE564D00415559 /* KickStarter */,
+				D1405C741EBE564E00415559 /* KickStarterTests */,
+				D1405C7F1EBE564E00415559 /* KickStarterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1405C5C1EBE564D00415559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1405C6F1EBE564E00415559 /* LaunchScreen.storyboard in Resources */,
+				D1405C6C1EBE564E00415559 /* Assets.xcassets in Resources */,
+				D1405C671EBE564E00415559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1405C731EBE564E00415559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1405C7E1EBE564E00415559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1405C5A1EBE564D00415559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1405C641EBE564E00415559 /* ViewController.swift in Sources */,
+				D1405C6A1EBE564E00415559 /* KickStarter.xcdatamodeld in Sources */,
+				D1405C621EBE564E00415559 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1405C711EBE564E00415559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1405C7A1EBE564E00415559 /* KickStarterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1405C7C1EBE564E00415559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1405C851EBE564E00415559 /* KickStarterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1405C771EBE564E00415559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1405C5D1EBE564D00415559 /* KickStarter */;
+			targetProxy = D1405C761EBE564E00415559 /* PBXContainerItemProxy */;
+		};
+		D1405C821EBE564E00415559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1405C5D1EBE564D00415559 /* KickStarter */;
+			targetProxy = D1405C811EBE564E00415559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1405C651EBE564E00415559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1405C661EBE564E00415559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1405C6D1EBE564E00415559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1405C6E1EBE564E00415559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1405C871EBE564E00415559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1405C881EBE564E00415559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1405C8A1EBE564E00415559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6339ZWMFHV;
+				INFOPLIST_FILE = KickStarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crickabhi.KickStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D1405C8B1EBE564E00415559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6339ZWMFHV;
+				INFOPLIST_FILE = KickStarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crickabhi.KickStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D1405C8D1EBE564E00415559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6339ZWMFHV;
+				INFOPLIST_FILE = KickStarterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crickabhi.KickStarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickStarter.app/KickStarter";
+			};
+			name = Debug;
+		};
+		D1405C8E1EBE564E00415559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6339ZWMFHV;
+				INFOPLIST_FILE = KickStarterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crickabhi.KickStarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickStarter.app/KickStarter";
+			};
+			name = Release;
+		};
+		D1405C901EBE564E00415559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6339ZWMFHV;
+				INFOPLIST_FILE = KickStarterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crickabhi.KickStarterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KickStarter;
+			};
+			name = Debug;
+		};
+		D1405C911EBE564E00415559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6339ZWMFHV;
+				INFOPLIST_FILE = KickStarterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crickabhi.KickStarterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KickStarter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1405C591EBE564D00415559 /* Build configuration list for PBXProject "KickStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1405C871EBE564E00415559 /* Debug */,
+				D1405C881EBE564E00415559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1405C891EBE564E00415559 /* Build configuration list for PBXNativeTarget "KickStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1405C8A1EBE564E00415559 /* Debug */,
+				D1405C8B1EBE564E00415559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1405C8C1EBE564E00415559 /* Build configuration list for PBXNativeTarget "KickStarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1405C8D1EBE564E00415559 /* Debug */,
+				D1405C8E1EBE564E00415559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1405C8F1EBE564E00415559 /* Build configuration list for PBXNativeTarget "KickStarterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1405C901EBE564E00415559 /* Debug */,
+				D1405C911EBE564E00415559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1405C681EBE564E00415559 /* KickStarter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1405C691EBE564E00415559 /* KickStarter.xcdatamodel */,
+			);
+			currentVersion = D1405C691EBE564E00415559 /* KickStarter.xcdatamodel */;
+			path = KickStarter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D1405C561EBE564D00415559 /* Project object */;
+}
